@@ -33,6 +33,7 @@ public class Sol_1105 {
         }
 
         String answer = sb + "0";
+
         return answer + sb.reverse();
     }
 

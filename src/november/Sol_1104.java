@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class Sol_1104 {
     public static void main(String[] args) {
-        int answer = solution2(new int[]{2, 1, 1, 2, 3, 1, 2, 3, 1});
+        int answer = solution(new int[]{2, 1, 1, 2, 3, 1, 2, 3, 1});
         System.out.println("answer = " + answer);
     }
 
