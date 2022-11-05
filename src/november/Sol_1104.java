@@ -8,6 +8,9 @@ public class Sol_1104 {
     public static void main(String[] args) {
         int answer = solution(new int[]{2, 1, 1, 2, 3, 1, 2, 3, 1});
         System.out.println("answer = " + answer);
+
+        int answer2 = solution2(new int[]{2, 1, 1, 2, 3, 1, 2, 3, 1});
+        System.out.println("answer2 = " + answer2);
     }
 
     public static int solution(int[] ingredient) {
