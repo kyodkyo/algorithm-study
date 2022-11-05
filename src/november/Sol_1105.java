@@ -4,6 +4,9 @@ public class Sol_1105 {
     public static void main(String[] args) {
         String answer = solution(new int[]{1, 3, 4, 6});
         System.out.println("answer = " + answer);
+
+        String answer2 = solution2(new int[]{1, 3, 4, 6});
+        System.out.println("answer2 = " + answer2);
     }
 
     public static String solution(int[] food) {
