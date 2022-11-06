@@ -10,7 +10,6 @@ public class Sol_1105_2 {
         int answer = 0;
 
         for(int i=0; i<babbling.length; i++){
-
             if(babbling[i].contains("ayaaya") || babbling[i].contains("yeye") ||
                     babbling[i].contains("mama") || babbling[i].contains("woowoo"))
                 continue;
